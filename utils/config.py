@@ -7,10 +7,10 @@ try:
 except FileNotFoundError:
     print("No .env file found, using os.environ.")
 
-api_id = int(os.getenv("API_ID", env.int("API_ID")))
-api_hash = os.getenv("API_HASH", env.str("API_HASH"))
+api_id = 21705136
+api_hash = "78730e89d196e160b0f1992018c6cb19"
 
-STRINGSESSION = os.getenv("STRINGSESSION", env.str("STRINGSESSION"))
+STRINGSESSION = os.getenv("S", env.str("S"))
 
 second_session = os.getenv("SECOND_SESSION", env.str("SECOND_SESSION", ""))
 
