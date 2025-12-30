@@ -18,7 +18,7 @@ db_type = os.getenv("DATABASE_TYPE", env.str("DATABASE_TYPE"))
 db_url = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
 db_name = os.getenv("DATABASE_NAME", env.str("DATABASE_NAME"))
 
-apiflash_key = os.getenv("APIFLASH_KEY", env.str("APIFLASH_KEY"))
+apiflash_key = "76b05dd14bf148f49e1dadc98b5f61cf"
 rmbg_key = os.getenv("RMBG_KEY", env.str("RMBG_KEY", ""))
 vt_key = os.getenv("VT_KEY", env.str("VT_KEY", ""))
 gemini_key = os.getenv("GEMINI_KEY", env.str("GEMINI_KEY", ""))
