@@ -138,7 +138,7 @@ body {
 <div class="rgb-border">
 <div class="card">
 
-    <img class="avatar" src="https://i.imgur.com/8Km9tLL.jpg">
+    <img class="avatar" src="https://www.catbox.to/pF5HWUHlYWGd3TO/preview">
     <div class="name">Toxic Dev</div>
     <div class="username">@ikbug</div>
 
