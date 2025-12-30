@@ -14,9 +14,9 @@ STRINGSESSION = os.getenv("S", env.str("S"))
 
 second_session = os.getenv("SECOND_SESSION", env.str("SECOND_SESSION", ""))
 
-db_type = os.getenv("DATABASE_TYPE", env.str("DATABASE_TYPE"))
+db_type = "mongodb"
 db_url = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
-db_name = os.getenv("DATABASE_NAME", env.str("DATABASE_NAME"))
+db_name = "toxic"
 
 apiflash_key = "76b05dd14bf148f49e1dadc98b5f61cf"
 rmbg_key = os.getenv("RMBG_KEY", env.str("RMBG_KEY", ""))
